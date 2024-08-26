@@ -1,0 +1,17 @@
+body {
+    transition: all 3s;
+    background: rgb(67, 67, 247);
+}
+.red {
+    background: rgb(230, 76, 76);
+}
+#my-heading {
+    transform: scale(0);
+    transition: all 4s;
+}
+#my-heading.heading-big {
+    transform: scale(1);
+}
+.hidden {
+    display: none;
+}
